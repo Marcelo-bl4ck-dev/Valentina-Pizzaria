@@ -1,0 +1,22 @@
+// src/styles/font-sizes.scss
+
+$font-sizes: (
+  1: 0.75rem,
+  2: 0.875rem,
+  3: 1rem,
+  4: 1.125rem,
+  5: 1.25rem,
+  6: 1.5rem,
+  7: 1.75rem,
+  8: 2rem
+);
+
+@mixin generate-font-size-classes {
+  @each $key, $value in $font-sizes {
+    .text-size-#{$key} {
+      font-size: $value;
+    }
+  }
+}
+
+@include generate-font-size-classes;

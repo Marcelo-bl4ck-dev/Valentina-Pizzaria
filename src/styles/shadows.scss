@@ -1,0 +1,19 @@
+// src/styles/shadows.scss
+
+$shadows: (
+  1: 0 1px 2px rgba(0, 0, 0, 0.05),
+  2: 0 2px 4px rgba(0, 0, 0, 0.1),
+  3: 0 4px 6px rgba(0, 0, 0, 0.1),
+  4: 0 8px 16px rgba(0, 0, 0, 0.2),
+  5: 0 12px 24px rgba(0, 0, 0, 0.3)
+);
+
+@mixin generate-shadow-classes {
+  @each $key, $value in $shadows {
+    .shadow-#{$key} {
+      box-shadow: $value;
+    }
+  }
+}
+
+@include generate-shadow-classes;

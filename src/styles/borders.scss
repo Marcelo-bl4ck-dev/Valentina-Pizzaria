@@ -1,0 +1,45 @@
+// src/styles/borders.scss
+
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px
+);
+
+@mixin generate-border-classes($sides) {
+  @each $key, $value in $border-widths {
+    @each $side in $sides {
+      .border-#{$side}-#{$key} {
+        border-#{$side}: $value solid black; // Example border style
+      }
+    }
+  }
+}
+
+// Generate border classes for all sides
+@include generate-border-classes(top bottom left right);
+
+// src/styles/borders.scss
+
+$border-radius: (
+  1: 2px,
+  2: 4px,
+  3: 6px,
+  4: 8px,
+  5: 10px,
+  6: 12px,
+  7: 16px,
+  8: 20px
+);
+
+@mixin generate-border-radius-classes {
+  @each $key, $value in $border-radius {
+    .rounded-#{$key} {
+      border-radius: $value;
+    }
+  }
+}
+
+@include generate-border-radius-classes;

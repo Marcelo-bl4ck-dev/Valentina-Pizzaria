@@ -1,0 +1,36 @@
+// src/styles/flexbox.scss
+
+$flex-directions: (
+  row: row,
+  row-reverse: row-reverse,
+  column: column,
+  column-reverse: column-reverse
+);
+
+$flex-alignments: (
+  start: flex-start,
+  center: center,
+  end: flex-end,
+  stretch: stretch
+);
+
+$flex-justifications: (
+  start: flex-start,
+  center: center,
+  end: flex-end,
+  between: space-between,
+  around: space-around,
+  even: space-evenly
+);
+
+@mixin generate-flex-classes($property, $values) {
+  @each $key, $value in $values {
+    .flex-#{$property}-#{$key} {
+      flex-#{$property}: $value;
+    }
+  }
+}
+
+@include generate-flex-classes(direction, $flex-directions);
+@include generate-flex-classes(align-items, $flex-alignments);
+@include generate-flex-classes(justify-content, $flex-justifications);

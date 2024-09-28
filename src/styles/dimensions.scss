@@ -1,0 +1,31 @@
+// src/styles/dimensions.scss
+
+$dimensions: (
+  1: 100px,
+  2: 200px,
+  3: 300px,
+  4: 400px,
+  5: 500px,
+  6: 600px,
+  7: 700px,
+  8: 800px
+);
+
+@mixin generate-width-classes {
+  @each $key, $value in $dimensions {
+    .w-#{$key} {
+      width: $value;
+    }
+  }
+}
+
+@mixin generate-height-classes {
+  @each $key, $value in $dimensions {
+    .h-#{$key} {
+      height: $value;
+    }
+  }
+}
+
+@include generate-width-classes;
+@include generate-height-classes;
