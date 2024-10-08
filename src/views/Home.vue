@@ -24,9 +24,12 @@ const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_png]
                         <CustomTitle spanText="A VALENTINA"></CustomTitle>
                         <h1 class="mt-12"> Tudo <br>Começa <br>em Pizza</h1>
                     </div>
-                    <div class="grid-3-h intro-actions">
+                    <div class="grid-2-h intro-actions">
                         <a class="primary-btn" target="_blank" href="https://valentinapizzaria.com/">Faça seu pedido</a>
                         <a class="primary-btn" target="_blank" :href="cardapio">Cardápio</a>
+                    </div>
+                    <div class="grid-2-h intro-actions">
+                        <RouterLink class="primary-btn" to="/reserves" >Faça sua reserva</RouterLink>
                     </div>
                 </div>
                 <v-carousel
@@ -118,6 +121,10 @@ const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_png]
 }
 
 @media (max-width: 800px) {
+
+    .intro-actions {
+        width: 80%;
+    }
 
     .section {
         display: grid;

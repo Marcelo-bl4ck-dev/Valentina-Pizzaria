@@ -8,6 +8,7 @@
         <RouterLink @click="toggleMenu" to="/about-valentina">Sobre a Valentina</RouterLink>
         <RouterLink @click="toggleMenu" to="/valentina-at-home">Valentina em Casa</RouterLink>
         <RouterLink @click="toggleMenu" to="/birthdays">Aniversários</RouterLink>
+        <RouterLink @click="toggleMenu" to="/reserves">Faça sua Reserva</RouterLink>
       </nav>
       <div class="hamburger" @click="toggleMenu">
         &#9776;
