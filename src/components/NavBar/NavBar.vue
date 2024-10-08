@@ -32,8 +32,6 @@ const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value;
 };
 
-console.log(ref())
-
 </script>
   
 <style scoped>

@@ -8,16 +8,6 @@ const showNavbar = ref(true)
 const lastScrollPosition = ref(0)
 
 
-onMounted(() => {
-  window.addEventListener('scroll', onScroll)
-})
-
-onUnmounted(() => {
-  window.removeEventListener('scroll', onScroll)
-})
-
-
-
 </script>
 
 <template>

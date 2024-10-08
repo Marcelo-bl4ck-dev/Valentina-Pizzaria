@@ -1,5 +1,5 @@
 <script setup>
-
+import ValentinaAtHomeVideo from '../assets/valentina-at-home.MP4';
 </script>
 
 <template>
@@ -22,6 +22,12 @@
                 </p>
             </div>
         </div>
+    </div>
+
+    <div class="full-grid video mt-5">
+        <video autoplay muted controls width="100%">
+            <source :src="ValentinaAtHomeVideo" type="video/mp4">
+        </video>
     </div>
 </template>
 

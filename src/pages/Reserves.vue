@@ -7,9 +7,14 @@ import ReserveWidget from '../components/ReserveBox/ReserveWidget.vue';
         <CustomTitle spanText="RESERVAS"/>
         <h1 class="velino">Faça sua reserva</h1>
     </div>
-    <div class="full-grid section bg-white reserve">
-        <div class="left-grid ma-auto"> 
+    <div class="grid-2-h section bg-white reserve">
+        <div class="left-grid"> 
             <ReserveWidget />
+        </div>
+        <div class="right-grid">
+            <video autoplay muted controls width="100%">
+                <source :src="ValentinaAtHomeVideo">
+            </video>
         </div>
     </div>
 </template>
@@ -18,13 +23,13 @@ import ReserveWidget from '../components/ReserveBox/ReserveWidget.vue';
     margin-bottom: 2vh;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 870px) {
     .reserve .paragraph {
         padding: 3vh 0;
     }
 
     .reserve {
-        grid-template-columns:100% !important;
+        grid-template-columns: 100% !important;
     }
 }
 </style>
