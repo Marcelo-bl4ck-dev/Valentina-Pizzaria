@@ -2,7 +2,7 @@
     <div class="grid-2-h section bg-primary make-your-reserve mt-2">
         <div class="left-grid paragraph">
             <CustomTitle spanText="A VALENTINA"></CustomTitle>
-            <h1 class="mb-7">Faça seu evento com a Valentina</h1>
+            <h1 class="mt-3 velino">Faça seu evento com a Valentina</h1>
         </div>
         <div class="right-grid">
             <div class="bg-light-gray paragraph py-10 px-8 reserve-home">
