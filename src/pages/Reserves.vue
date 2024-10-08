@@ -12,7 +12,7 @@ import ReserveWidget from '../components/ReserveBox/ReserveWidget.vue';
             <ReserveWidget />
         </div>
         <div class="right-grid">
-            <video autoplay muted controls width="100%">
+            <video controls width="100%">
                 <source :src="ValentinaAtHomeVideo">
             </video>
         </div>
