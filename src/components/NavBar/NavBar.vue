@@ -1,7 +1,7 @@
 <template>
     <header ref="navbar" id="nav-bar">
       <nav class="nav-links" :class="{ active: isMenuOpen }" ref="navLinks">
-        <a @click="toggleMenu" class="logo" href="/">
+        <a @click="toggleMenu" class="browser-logo" href="/">
             <img src="../../assets/logo.svg">
         </a>
         <a :href="cardapio" @click="toggleMenu" target="_blank" class="highlighted">Cardápio</a>
@@ -62,6 +62,7 @@ header {
     padding-right: 20px;
     display: flex;
     gap: 20px;
+    box-shadow: 0px 3px 0px #243136;
 }
 
 .nav-links a:not(.logo) {
@@ -110,6 +111,10 @@ header {
     border-radius: 4px; 
 }
 
+.browser-logo {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .header {
         height: 200vh !important;
@@ -124,8 +129,12 @@ header {
         background-color: #2B3A41;
         width: 100%;
     }
+    .browser-logo {
+        display: none;
+    }
 
     .nav-links.active {
+        margin-top: 20px;
         display: grid;
     }
 
