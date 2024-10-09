@@ -62,7 +62,6 @@ header {
     padding-right: 20px;
     display: flex;
     gap: 20px;
-    box-shadow: 0px 3px 0px #243136;
 }
 
 .nav-links a:not(.logo) {
@@ -128,6 +127,7 @@ header {
         right: 0;
         background-color: #2B3A41;
         width: 100%;
+        box-shadow: 0px 3px 0px #243136;
     }
     .browser-logo {
         display: none;
