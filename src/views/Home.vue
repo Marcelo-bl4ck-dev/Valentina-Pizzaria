@@ -4,20 +4,13 @@
 import AboutValentina from '../pages/AboutValentina.vue';
 import CelebrateBirthday from '../pages/CelebrateBirthday.vue';
 import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
-import { ref, reactive, computed, onMounted  } from 'vue';
-import GoogleMaps from 'google-maps-api-loader';
 
-const onScroll = () => {
-    console.log(
-        'hide nav bar'
-    )
-}
 </script>
 
 <template>
-    <div class="home" v-scroll.self="onScroll">
+    <div class="home">
         <Intro />
-        <Order-On-Website />
+        <!-- <Order-On-Website /> -->
         <About-Valentina/>
         <Make-Your-Reserve />
         <Celebrate-Birthday />

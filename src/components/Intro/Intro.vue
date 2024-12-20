@@ -20,7 +20,7 @@ const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_png]
                     <h1 class="mt-12"> Tudo <br>Começa <br>em Pizza</h1>
                 </div>
                 <div class="grid-2-h intro-actions">
-                    <a class="primary-btn" target="_blank" href="https://valentinapizzaria.com/">Faça seu pedido</a>
+                    <a class="primary-btn" target="_blank" href="https://deliverydireto.com.br/valentinapizzaria-jardimbotanico">Faça seu pedido</a>
                     <a class="primary-btn" target="_blank" :href="cardapio">Cardápio</a>
                 </div>
                 <div class="grid-2-h intro-actions">

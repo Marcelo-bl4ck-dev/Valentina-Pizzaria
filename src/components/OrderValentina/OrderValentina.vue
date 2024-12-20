@@ -4,7 +4,7 @@
     <div class="full-grid paragraph text-white section bg-white order-valentina pa-10">
         <CustomTitle spanText="FAÇA UM PEDIDO NA VALENTINA"></CustomTitle>
         <h1 class="mb-7">Faça seu pedido</h1>
-        <a href="https://valentinapizzaria.com/" target="_blank" class="secondary-btn">FAZER PEDIDO</a>
+        <a href="https://deliverydireto.com.br/valentinapizzaria-jardimbotanico" target="_blank" class="secondary-btn">FAZER PEDIDO</a>
     </div>
 </template>
 <style lang="css" scoped>

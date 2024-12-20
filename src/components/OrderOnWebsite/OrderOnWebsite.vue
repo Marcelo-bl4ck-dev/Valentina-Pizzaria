@@ -17,7 +17,7 @@
                 por pedido feito, desconto que já pode ser utilizado a qualquer momento.</p>
                
                 <p>O novo Site não precisa ser baixado, basta clicar em <span class="gray-highlight">FAÇA SEU PEDIDO</span>
-                ou entrar em <a href="https://valentinapizzaria.com/">valentinapizzaria.com</a> e fixar como um ícone na tela de início do seu celular.</p>
+                ou entrar em <a href="https://deliverydireto.com.br/valentinapizzaria-jardimbotanico">valentinapizzaria.com</a> e fixar como um ícone na tela de início do seu celular.</p>
                 
                 <p class="italic-gray-obs">Aproveite e peça nossas delícias com descontos e benefícios exclusivos!</p>
             </div>
