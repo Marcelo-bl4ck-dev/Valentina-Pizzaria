@@ -10,7 +10,7 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
 <template>
     <div class="home">
         <Intro />
-        <!-- <Order-On-Website /> -->
+        <Order-On-App />
         <About-Valentina/>
         <Make-Your-Reserve />
         <Celebrate-Birthday />
@@ -79,7 +79,7 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 
     .intro-actions {
         width: 80%;
@@ -107,7 +107,7 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
     }
 
     .order-valentina,
-    .order-on-website {
+    .order-on-app {
         grid-template-columns: 100% !important;
     }
 
