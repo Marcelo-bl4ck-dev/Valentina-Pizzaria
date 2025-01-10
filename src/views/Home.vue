@@ -31,28 +31,6 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
     background-color: white;
     margin-bottom: 3vh;
 }
-.intro {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.intro-actions {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 70%;
-    justify-content: flex-start;
-    gap: 20px;
-}
-.intro-carrosel {
-    overflow: hidden;
-}
-
-.intro .right-grid {
-    width: 100%;
-    height: 500px;
-}
-.section:not(.intro-grid) {
-    margin-top: 1vh;
-}
 
 .starts-pizza {
     font-family: Rebecca Samuels Regular;
@@ -79,7 +57,7 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 
     .intro-actions {
         width: 80%;
@@ -100,7 +78,6 @@ import ValentinaAtHome from '../pages/ValentinaAtHome.vue';
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
-        margin-bottom: 20px;
     }
     .home > div {
         padding: 0px 0px;

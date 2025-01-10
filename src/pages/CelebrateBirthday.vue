@@ -10,7 +10,7 @@
         </div>
         <div class="grid-3-h gap-2">
             <div class="left-grid">
-                <v-img height="300px" src="../assets/pizza-ice-chocolate.png"></v-img>
+                <v-img height="300px" src="../assets/birthday-girl.png"></v-img>
                 <p class="align-start">O aniversariante do dia ganha um presente: uma pizza individual doce, 
                     Nutella ou Macaquito. basta mostrar a identidade.</p>
             </div>
@@ -20,7 +20,7 @@
                     São três tipos de cardápios, a partir de R$83,00 por pessoa, a bebida não está inclusa.</p>    
             </div>
             <div class="right-grid">
-                <v-img height="300px" src="../assets/book-birthday.png"></v-img>
+                <v-img height="300px" src="../assets/celebration-toast.png"></v-img>
                 <p class="align-start">Ligue para (61) 3273-7009 para mais informações e reservas de datas.</p>
             </div>
         </div>

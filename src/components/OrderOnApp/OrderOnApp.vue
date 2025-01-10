@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="right-grid">
-            <v-img class="img" min-height="600px" src="../../assets/new-app.png">
+            <v-img class="img" height="530px" src="../../assets/new-app.png">
             </v-img>
         </div>
     </div>

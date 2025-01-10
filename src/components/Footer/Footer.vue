@@ -1,7 +1,7 @@
 <script lang="js">
 </script>
 <template>
-    <div class="app-footer">
+    <div class="app-footer pt-4">
         <CustomTitle spanText="NOSSOS ENDEREÇOS"/>
         <div class="grid-3-h address">
             <div class="left-grid location">
@@ -54,7 +54,7 @@
         </div>
         
         
-        <span class="mt-10">Valentina Pizzaria &#174; 2024</span>
+        <span class="mt-10 ml-5">Valentina Pizzaria &#174; 2025</span>
     </div>    
 </template>
 <style lang="css">

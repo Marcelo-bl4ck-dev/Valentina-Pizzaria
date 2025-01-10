@@ -3,7 +3,8 @@
 <template>
     <div>
         <div class="grid-2-h section bg-white about-valentina">
-            <div class="left-grid pizza-beer-cake"></div>
+            <div class="left-grid pizza-beer-cake">
+            </div>
             <div class="right-grid paragraph about-valentina-text py-5 px-3">
                 <CustomTitle spanText="A VALENTINA PIZZARIA"></CustomTitle>
                 <h1 class="velino">Sabor e qualidade são sinônimos da Valentina Pizzaria.</h1>
@@ -31,8 +32,8 @@
 
 .about-valentina-text p{
     text-justify: auto;
-
 }
+
 .pizza-beer-cake {
     background-image: url('../assets/img-3-parts.png');
     background-repeat: no-repeat;

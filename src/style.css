@@ -172,7 +172,7 @@ button:focus-visible {
 }
 .bg-light-gray {
   background-color: rgb(224, 224, 224);
-  opacity: 0.8;
+  opacity: 0.7;
   height: 80%;
   width: 80%;
   margin: auto;
@@ -180,7 +180,7 @@ button:focus-visible {
 }
 .insta-link {
   color: #c36;
-  font-weight: 700;
+  font-weight: 900;
 }
 .whatsapp-reserve {
   display: block;

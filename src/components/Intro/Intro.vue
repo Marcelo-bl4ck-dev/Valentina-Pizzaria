@@ -4,10 +4,11 @@ import cardapio from '@/assets/Cardapio-Valentina-Pizzaria.pdf';
 import pizza_png from '@/assets/pizza.png';
 import moscow_mule_png from '@/assets/moscow-mule.png';
 import salada_png from '@/assets/salada.png';
-import forno_png from '@/assets/forno.png';
+import forno_jpeg from '@/assets/forno.jpeg';
+import sorvete_jpeg from '@/assets/sorvete.jpeg';
 import ReserveWidget from '../ReserveBox/ReserveWidget.vue';
 
-const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_png]
+const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_jpeg, sorvete_jpeg]
 </script>
 
 <template>
@@ -64,7 +65,27 @@ const introCarrosel = [pizza_png, moscow_mule_png, salada_png, forno_png]
     cursor: pointer;
 }
 
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .intro-actions {
+    margin-top: 20px;
     margin-right: 20px;
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.intro-carrosel {
+    overflow: hidden;
+}
+
+.intro .right-grid {
+    width: 100%;
+    height: 500px;
+}
+.section:not(.intro-grid) {
+    margin-top: 1vh;
 }
 </style>
