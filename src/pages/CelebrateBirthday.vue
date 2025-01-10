@@ -12,7 +12,7 @@
             <div class="left-grid">
                 <v-img height="300px" src="../assets/birthday-girl.png"></v-img>
                 <p class="align-start">O aniversariante do dia ganha um presente: uma pizza individual doce, 
-                    Nutella ou Macaquito. basta mostrar a identidade.</p>
+                    Nutella ou Macaquito. Basta mostrar a identidade.</p>
             </div>
             <div class="middle-grid">
                 <v-img height="300px" src="../assets/valentina-place.png"></v-img>
