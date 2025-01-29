@@ -15,7 +15,7 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p class="align-start">
                     CLN 214 Bloco A – Asa Norte <br>
-                    Tel: 61 3340-6868 
+                    Tel: 61 3340-9898 
                 </p>
             </div>
             <div class="middle-grid location">
